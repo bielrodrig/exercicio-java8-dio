@@ -12,6 +12,9 @@ public class Usuario {
         smartTv.abaixarCanal();
         System.out.println("Novo Status - Canal foi diminuido " + smartTv.canal);
 
+        smartTv.abaixarVolume();
+        System.out.println("Novo Status - Volume foi diminudo " + smartTv.volume);
+
 
     }
 }
